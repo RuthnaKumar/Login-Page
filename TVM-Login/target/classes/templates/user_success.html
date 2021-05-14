@@ -1,0 +1,14 @@
+<html>
+<head>
+<body>
+<h1>USER SUCCESSFULLY REGISTERED</h1>
+
+<form th:action="@{/registration}" method="post" th:object="${user}">
+					<div class="form-group">
+						<span> <a href="/" th:href="@{/login}">Login
+								here</a></span>
+					</div>
+					</form>
+</body>
+</head>
+</html>
